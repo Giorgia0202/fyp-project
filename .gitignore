@@ -1,0 +1,15 @@
+venv/
+*.zip
+*.dylib
+*.safetensors
+__pycache__/
+venv/
+detection2 copy/venv/
+Archive.zip
+*.safetensors
+__pycache__/
+venv/
+detection2 copy/venv/
+Archive.zip
+*.safetensors
+__pycache__/

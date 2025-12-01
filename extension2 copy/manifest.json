@@ -1,0 +1,54 @@
+{
+  "manifest_version": 3,
+  "name": "Phishing Detector(second_try)",
+  "version": "1.0",
+  "description": "Detect phishing in opened Gmail emails using your ML backend.",
+  "permissions": [
+    "scripting",
+    "activeTab",
+    "storage"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://mail.google.com/*"],
+      "js": [
+        "emailExtractor.js",
+        "uiComponents.js",
+        "popupManager.js",
+        "feedbackService.js",
+        "linkProtection.js",
+        "emailAnalyzer.js",
+        "gmailObserver.js",
+        "content.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ],
+  "icons": {
+    "16": "icons/logoFYP.png",
+    "32": "icons/logoFYP.png",
+    "48": "icons/logoFYP.png",
+    "128": "icons/logoFYP.png"
+  },
+  "action": {
+    "default_popup": "html/popup.html",
+    "default_title": "Phishing Detector Status"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "icons/logoFYP.png",
+        "icons/virusThumbsup.png",
+        "html/feedbackPopup.html",
+        "html/reportPopup.html"
+      ],
+      "matches": ["https://mail.google.com/*"]
+    }
+  ]
+}

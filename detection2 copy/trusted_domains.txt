@@ -1,0 +1,219 @@
+# Google services (EXPANDED)
+
+googlemail.com
+mail.google.com
+docs.google.com
+drive.google.com
+forms.google.com
+#gstatic.com
+googleapis.com
+notifications.googleapis.com
+googleusercontent.com
+googlesyndication.com
+googleadservices.com
+googlevideo.com
+youtube.comls
+netflix.com
+ytimg.com
+ggpht.com
+blogger.com
+blogspot.com
+accounts.google.com
+myaccount.google.com
+families.google.com
+notifications.google.com
+youtu.be
+c.gle
+goo.gl
+googl.co
+glassdoor.com
+google-analytics.com
+googletagmanager.com
+aia.com.my
+tiktok.com
+link-email.shein.com
+visit.tngdigital.com.my
+tngd.my
+touchngo.com.my
+support.anthropic.com
+jobs.wildernesshotels.fi
+mandrillapp.com
+sephora.my
+events.zoom.us
+click.redditmail.com
+apps.microsoft.com
+fool.com
+supercell.com
+setel.my
+hello@setel.my
+hello@setel.com
+bluewater.my
+pokemongolive.com
+jobstreet.com
+apiit.atlassian.net
+miro.com
+# General services
+apu.edu.my
+hotmail.com
+yahoo.com
+microsoft.com
+dropbox.com
+amazon.com
+nintendo-noreply@nintendo.net
+7dayz.my
+support@openai.com
+replit.com
+design.com
+devfolio.co
+sui.io
+zalora.com
+ipay88.com
+ipay88.com.my
+sunway.edu.my
+# E-commerce
+lazada.com
+lazada.com.my
+moomoo.com
+discord.com
+
+# Banks (Malaysia)
+maybank.com
+maybank.com.my
+maybank2u.com.my
+cimb.com
+cimbclicks.com.my
+rhbgroup.com
+rhbnow.com.my
+ambank.com.my
+hongleongbank.com
+pbebank.com
+bankislam.biz
+bankrakyat.com.my
+affinbank.com.my
+alliancebank.com.my
+bsn.com.my
+hsbc.com.my
+standardchartered.com.my
+ocbc.com.my
+uob.com.my
+click.mkt.grab.com
+link.email.nianticlabs.com
+itr.links.codecademy.com
+link-edm-my.sheinemail.com
+hongleongbank.email-messaging.com
+hongleong.com.my
+
+# International banks
+hsbc.com
+standardchartered.com
+citibank.com
+chase.com
+bankofamerica.com
+wellsfargo.com
+capitalone.com
+td.com
+scotiabank.com
+db.com
+barclays.com
+natwest.com
+lloydsbank.com
+hlb.com.my
+
+# Add these lines to your trusted_domains.txt file
+
+# Nintendo services
+nintendo.com
+accounts.nintendo.com
+nintendo.net
+nintendo.jp
+nintendo.co.jp
+nintendo.co.uk
+nintendo.fr
+nintendo.de
+nintendo.es
+nintendo.it
+nintendo.com.au
+nintendo.ca
+
+# Gaming companies (you might want to add these too)
+# Steam/Valve
+steampowered.com
+steamcommunity.com
+store.steampowered.com
+
+# Sony PlayStation
+playstation.com
+sonyentertainmentnetwork.com
+sony.com
+
+# Microsoft Xbox
+xbox.com
+microsoft.com
+outlook.com
+
+# Epic Games
+epicgames.com
+unrealengine.com
+
+# Electronic Arts (EA)
+ea.com
+origin.com
+
+# Ubisoft
+ubisoft.com
+uplay.com
+
+# Activision Blizzard
+activision.com
+blizzard.com
+battle.net
+
+# Trusted Domains List
+# One domain per line, comments start with #
+
+# Major Email Providers
+gmail.com
+google.com
+google.com.my
+googlemail.com
+click.grammarly.com
+mailto:support@openai.com
+ibm.com
+
+
+live.com
+microsoft.com
+mymesra.com.my
+# Major Tech Companies
+amazon.com
+apple.com
+icloud.com
+jobleads.com
+zendesk.com
+linkedin.com
+twitter.com
+github.com
+cimb.com.my
+beehiiv.com
+awstrack.me
+
+# Financial Services
+paypal.com
+stripe.com
+square.com
+
+# E-commerce
+shopify.com
+amazon.com
+ebay.com
+
+# News & Media
+cnn.com
+bbc.com
+reuters.com
+nytimes.com
+
+# Government
+gov
+.gov
+.edu

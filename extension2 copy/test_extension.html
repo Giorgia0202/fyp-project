@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extension Test</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .test-container {
+            max-width: 600px;
+            margin: 0 auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .icon-test {
+            display: flex;
+            align-items: center;
+            margin: 10px 0;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        .icon-test img {
+            width: 32px;
+            height: 32px;
+            margin-right: 10px;
+        }
+        .status {
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 4px;
+        }
+        .success { background-color: #d4edda; color: #155724; }
+        .error { background-color: #f8d7da; color: #721c24; }
+    </style>
+</head>
+<body>
+    <div class="test-container">
+        <h1>Extension Icon Test</h1>
+        
+        <h2>Icon Files Test:</h2>
+        <div class="icon-test">
+            <img src="icons/logoFYP.png" alt="Logo FYP">
+            <span>logoFYP.png (Extension Icon)</span>
+        </div>
+        <div class="icon-test">
+            <img src="icons/virusThumbsup.png" alt="Virus Thumbs Up">
+            <span>virusThumbsup.png (Popup Icon)</span>
+        </div>
+        
+        <h2>Popup Test:</h2>
+        <div class="icon-test">
+            <img src="icons/logoFYP.png" alt="Logo" style="width: 50px; height: 50px;">
+            <div>
+                <div style="font-weight: bold; margin-bottom: 5px;">Everything is OK!</div>
+                <div style="font-size: 13px; color: #27ae60;">All systems protected</div>
+            </div>
+        </div>
+        
+        <div id="status" class="status success">
+            ✅ Extension files are accessible
+        </div>
+    </div>
+
+    <script>
+        // Test if files are accessible
+        const testFiles = [
+            'icons/logoFYP.png',
+            'icons/virusThumbsup.png',
+            'html/popup.html'
+        ];
+        
+        let allFilesOk = true;
+        
+        testFiles.forEach(file => {
+            fetch(file)
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error(`HTTP ${response.status}`);
+                    }
+                    console.log(`✅ ${file} is accessible`);
+                })
+                .catch(error => {
+                    console.error(`❌ ${file} is not accessible:`, error);
+                    allFilesOk = false;
+                    document.getElementById('status').className = 'status error';
+                    document.getElementById('status').textContent = `❌ Error: ${file} is not accessible`;
+                });
+        });
+    </script>
+</body>
+</html> 
